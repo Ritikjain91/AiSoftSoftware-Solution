@@ -1,0 +1,103 @@
+.WhyAISOFT-container{
+    background-color: white;
+    position: relative;
+    margin-top:18.1em;
+    margin-bottom:6.1em;
+    
+}
+.WhyAISOFT__animatedText #animatedText{
+  margin-bottom: 1em !important;
+}
+
+.WhyAISOFT__animatedText {
+  word-wrap: break-word;
+  font-family: "Catamaran, sans-serif";
+  line-height: 39px;
+  color: #f8f4f4;
+  background: linear-gradient(225.35deg, #d23b7d 0, #1c4ea1 100%);
+  padding: 7em 1em;
+  top: 0 !important; 
+  left: 0;
+  right: 0;
+  padding: 10em 8em;
+}
+
+
+.WhyAISOFT__animatedText #animatedText {
+  font-size: 46px;
+  font-weight: bold;
+  color: #fff;
+  text-transform: capitalize;
+  width: 35ch;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typing 5s steps(10) infinite;
+  animation-duration: 5s;
+  animation-timing-function: steps(10);
+   font-family: 'Catamaran', sans-serif;
+}
+
+@keyframes typing {
+  from { width: 0; }
+  to { width: 100%; }
+}
+
+
+
+
+
+.WhyAISOFT-info-card .card {
+    transition: transform 0.3s, background-color 0.3s;
+    background-color: #f8f9fa; /* Default background color */
+  }
+  
+  .WhyAISOFT-info-card .card:hover {
+    transform: scale(1.05);
+    background-color: #ffffff !important; /* Change background color to white on hover */
+  }
+  
+  .WhyAISOFT-info-card .WhyAISOFT-icon_why {
+    transition: background-color 0.3s;
+  }
+  
+  .WhyAISOFT-info-card .card:hover .WhyAISOFT-icon_why {
+    background-color: #ff3a4c;
+  }
+  
+  .WhyAISOFT-info-card .card:hover .WhyAISOFT-icon_why_inner {
+    color: #ffffff;
+  }
+  @media (min-width :577px ) and (max-width :767px){
+    .WhyAISOFT .WhyAISOFT__animatedText .fs-1{
+      font-size: 1.4em !important;
+    }
+    .WhyAISOFT__animatedText{
+      padding: 10em 4em;
+    }
+  }
+  
+@media (min-width :437px ) and (max-width: 576px) {
+  .WhyAISOFT-card_property_why {
+    width: 100% !important;  /* Make the card take full width */
+    max-width: 100% !important; /* Override the max-width */
+  }
+  .WhyAISOFT .WhyAISOFT__animatedText .fs-1{
+    font-size: 1.2em !important;
+  }
+  .WhyAISOFT__animatedText{
+    padding: 10em 1em;
+  }
+}
+@media (max-width: 436px){
+  .WhyAISOFT-card_property_why {
+    width: 100% !important;  /* Make the card take full width */
+    max-width: 100% !important; /* Override the max-width */
+  }
+  .WhyAISOFT .WhyAISOFT__animatedText .fs-1{
+    font-size: 1em !important;
+  }
+  .WhyAISOFT__animatedText{
+    padding: 10em 1em;
+  }
+
+}

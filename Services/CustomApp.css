@@ -1,0 +1,177 @@
+.custom-app-breadcrumbs-txt {
+    font-weight: bold;
+    text-transform: capitalize;
+    overflow: hidden;
+    white-space: nowrap;
+    font-size: 3.5em !important;
+    position: absolute;
+    top: 25%;
+    left: 8%;
+    animation: typing 5s steps(30, end) infinite;
+    transform: translateX(0); /* Adjust as needed */
+    z-index: 2; /* Ensure the text is above the image */
+    color: white; /* Adjust text color for better visibility */
+   
+    width: 0; /* Initial width */
+}
+
+@keyframes typing {
+    from { width: 0; }
+    to { width: 100%; }
+  }
+  
+.custom-app-page-feature-mobile {
+    background: linear-gradient(225.35deg, #d23b7d 0%, #1c4ea1 100%);
+    padding: 300px 0 80px;
+    position: relative;
+}
+
+.custom-app-page-feature-mobile .custom-app-breadcrumb {
+    background-color: transparent;
+    color: #fff;
+    display: block;
+    text-transform: capitalize;
+    margin-bottom: 0;
+    z-index: 3;
+}
+
+.custom-app-why-para {
+    word-wrap: break-word;
+    font-family: Catamaran, sans-serif;
+    line-height: 29px;
+    color: #777;
+    font-weight: 400;
+    text-align: justify;
+    font-size: 19px;
+}
+
+.custom-app-card-body {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+    bottom: 110px;
+}
+
+.custom-app-row-end {
+    margin: 0;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    color: #444;
+    background: linear-gradient(225.35deg, #d23b7d 0%, #1c4ea1 100%);
+    background-color: #1f3c66;
+}
+
+.custom-app-img-mobile {
+    max-width: 100%;
+    height: auto;
+}
+
+.custom-app-padding-platform {
+    padding: 0 15px;
+}
+
+.custom-app-padding-custom {
+    padding: 15px;
+}
+
+.custom-app-padding-custom-left {
+    padding-left: 15px;
+}
+
+.custom-app-geek {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    text-align: left;
+}
+
+.custom-app-custom-heading-new {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.custom-app-para-custom {
+    font-size: 16px;
+}
+
+.mobile-app-footer {
+    background: linear-gradient(225.35deg, #d23b7d 0%, #1c4ea1 100%);
+    padding: 50px;
+    text-align: center;
+}
+
+.mobile-app-footer-title {
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 24px;
+}
+
+.Red{
+    color: #ff4081;
+}
+
+@media (min-width: 990px) and (max-width: 1112px) {
+  
+   .custom-app-breadcrumbs-txt {
+  
+        font-size: 2em !important;
+        top: 6em !important;
+        right: 5em !important;
+  
+    }
+   
+  }
+  
+  @media (min-width: 759px) and (max-width: 990px) {
+   
+    .custom-app-page-feature-mobile .custom-app-breadcrumbs-txt {
+        font-size: 2.3em !important;
+        position: relative;
+        top: -1em !important;
+       
+    }
+    
+  }
+  
+  @media (min-width: 500px) and (max-width: 759px) {
+    
+   
+    .custom-app-page-feature-mobile .custom-app-breadcrumbs-txt {
+        font-size: 1.5em !important;
+        position: relative;
+        top: -1em !important;
+       
+    }
+  .custom-app-breadcrumb .custom-app-why-para{
+    font-size: 0.8em !important;
+
+  }
+  
+    
+  }
+  @media (max-width: 499px) {
+    .custom-app-page-feature-mobile .custom-app-breadcrumbs-txt {
+        font-size: 1.2em !important;
+        position: relative;
+        top: -1em !important;
+        left: 0em !important;
+       
+    }
+    .custom-app-breadcrumb .custom-app-why-para{
+        font-size: 0.9em !important;
+    
+      }
+      .custom-app-page-feature-mobile{
+        padding: 120px 0 50px
+      }
+   .custom-app-bg-all   .custom-app-card-body{
+    padding: 0.2rem !important;
+   }
+   
+  }

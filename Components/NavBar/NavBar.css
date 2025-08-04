@@ -1,0 +1,94 @@
+.NavBar__page .bg-dark-gradient {
+  background: linear-gradient(45deg, #343a40, #212529);
+  }
+  
+  
+  .NavBar__page .dropdown-toggle {
+    color: white !important;
+  }
+  .NavBarpage__Navbar .text-white{
+    font-size: 1.1em;
+  }
+  
+  
+  .offcanvas-header {
+    background: linear-gradient(to right, #000000, #434343);
+  }
+  .dropdown-toggle::after{
+    color: white !important;
+  }
+  
+  .nav-link:hover {
+    border-width: 0.1rem;
+    border-style: solid;
+    border-color: white;
+  }
+  
+  .navbar-center {
+    position: absolute;
+    left: 7em;
+    transform: translateX(-50%);
+  }
+  
+  .navbar-nav .dropdown-menu {
+    background-color: #000000;
+  }
+  
+  .dropdown-item:hover {
+    background-color: transparent !important;
+    border-width: 0.1rem !important;
+    border-style: solid !important;
+    border-color: white !important;
+  }
+  
+  .offcanvas-title{
+    color: white !important;
+  }
+  .navbar-toggler {
+    background-image: url('../../Images/ICON/hamburger.png') !important;
+    background-size: contain; /* Ensure the icon scales correctly */
+    background-repeat: no-repeat; /* Prevent repeating */
+    width: 40px; /* Adjust width to match the icon dimensions */
+    height: 40px; /* Adjust height to match the icon dimensions */
+    border: none; /* Remove border if present */
+  }
+  .navbar-toggler{
+    border: 0 !important;
+    color: transparent !important;
+  }
+  
+ 
+  @media (min-width: 990px) and (max-width: 1112px) {
+  
+    .NavBarpage__Navbar .text-white{
+      font-size: 0.9em !important;
+    }
+  }
+  @media (max-width: 991px) {
+    .offcanvas-body {
+      background: linear-gradient(to right, #000000, #434343);
+    }
+   .NavBarpage__Navbar .text-white{
+      font-size: 0.85em !important;
+    }
+    .offcanvas-header .btn-close{
+      background-color: white !important;
+    }
+   
+  }
+  
+  @media (min-width: 991px) {
+    .offcanvas-header,
+    .offcanvas-body {
+      display: none;
+    }
+    
+    
+  
+    .offcanvas.show,
+    .offcanvas.show:not(.hiding),
+    .offcanvas.showing {
+      display: none !important;
+    }
+  }
+  

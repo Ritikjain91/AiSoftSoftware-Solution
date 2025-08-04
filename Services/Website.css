@@ -1,0 +1,197 @@
+/* General Styles */
+.container-fluid {
+    padding: 0;
+  }
+  
+  .Website-card_body {
+    background-color: #fff;
+    padding: 50px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    bottom: 9em;
+  }
+  
+  .Website-aboutheading {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  
+  
+  .Website-why_para {
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  /* Section: Web Feature Mobile */
+  .Website-web-feature_mobile {
+    background: linear-gradient(225.35deg, #d23b7d 0%, #1c4ea1 100%);
+    background-color: #1f3c66;
+    padding: 200px 0 80px;
+    position: relative;
+  }
+  
+  .Website-webbreadcrumbs__txt {
+    font-weight: bold;
+    text-transform: capitalize;
+    overflow: hidden;
+    white-space: nowrap;
+    font-size: 3em !important;
+    position: absolute;
+    top: 30%;
+    left: 8%;
+    animation: typing 5s steps(30, end) infinite;
+    transform: translateX(0); /* Adjust as needed */
+    z-index: 2; /* Ensure the text is above the image */
+    color: white; /* Adjust text color for better visibility */
+   
+    width: 0; /* Initial width */
+  }
+  
+  @keyframes typing {
+    from { width: 0; }
+    to { width: 100%; }
+  }
+  
+  .Website-img_banner_section {
+    position: relative;
+  z-index: 1;
+  }
+  
+  .Website-webbreadcrumb {
+    background-color: transparent;
+    color: #fff;
+    text-transform: capitalize;
+    position: relative;
+    margin-bottom: 0;
+    z-index: 3;
+  }
+  
+  .Website-webwhy_para {
+    color: #fff;
+  position: relative;
+  top: 2em;
+  }
+  
+  /* Section: Clients Area */
+  .Website-clients-area {
+    background-color: #343a40;
+    color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .Website-para_left_about {
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+  }
+  
+  .Website-para_left_about i {
+    color: #28a745;
+    margin-right: 10px;
+  }
+  
+  /* Section: New Section */
+  .Website-new_section {
+    margin-top: 50px;
+    background: #374b9b;
+    color:white;
+  }
+  
+  .Website-heading_new_top {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .Website-why_para_web {
+    font-size: 1rem;
+    color: #faf4f4;
+  }
+  
+  /* Section: Row End */
+  .Website-row_end {
+    margin-top: 20px;
+  }
+  
+  .Website-head_end {
+    font-size: 1.8rem;
+    font-weight: bold;
+  }
+  
+  /* Button Styles */
+  .Website-btn-border {
+    border: 2px solid #007bff;
+    color: #007bff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .Website-btn-border:hover {
+    background-color: #007bff;
+    color: #fff;
+  }
+  @media (max-width:991px) and (min-width:700px){
+    .Website-web-feature_mobile .Website-webwhy_para{
+ 
+        top: -2em;
+    }
+    .Website-web-feature_mobile .row{
+      position: relative;
+      bottom: 5em;
+      left: 2em
+    }
+    .Website-web-feature_mobile .Website-webbreadcrumbs__txt{
+      position: relative;
+      font-size: 2em !important;
+      top: 2em;
+
+    }
+}
+@media (max-width:700px) and (min-width:500px){
+  .Website-web-feature_mobile .Website-webwhy_para{
+ 
+    top: -2em;
+    
+}
+.Website-web-feature_mobile .row{
+  position: relative;
+  bottom: 5em;
+  right: 0.8em;
+  font-size: 0.8em;
+
+}
+.Website-web-feature_mobile .Website-webbreadcrumbs__txt{
+  position: relative;
+  font-size: 2em !important;
+  top: 2em;
+
+}
+
+}
+@media (max-width:499px){
+  .Website-web-feature_mobile .Website-webwhy_para{
+ 
+    top: 0em;
+    font-size: 0.9em !important;
+    
+}
+.Website-web-feature_mobile .row{
+  position: relative;
+  bottom: 8em;
+ 
+  
+
+}
+.Website-web-feature_mobile .Website-webbreadcrumbs__txt{
+  position: relative;
+  font-size: 1.2em !important;
+  top: 2em;
+  left: 0;
+
+}
+
+}
+  

@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@400;600&display=swap');
+
+
+
+.about-us-container .shadow-lg {
+  position: relative;
+  bottom: 10em;
+}
+
+.about-us-container .shadow-lg section {
+  transition: box-shadow 0.3s ease;
+}
+
+
+
+.about-us-success-section .text-center i {
+  background: linear-gradient(to right bottom, #595ea5 25%, #ff3a4c 50%, #595ea5 100%);
+  border-radius: 100%;
+  padding: 0.5em 0.6em;
+}
+
+.about-us-section,
+.about-us-overview-section,
+.about-us-success-section,
+.about-us-clients-section {
+  margin-bottom: 6rem;
+}
+.about-us-description-businessrelationships .mt-5{
+  font-size: 1.5em;
+
+}
+.about-us-section {
+  word-wrap: break-word;
+  font-family: "Catamaran, sans-serif";
+  line-height: 29px;
+  color: #f8f4f4;
+  background: linear-gradient(225.35deg, #d23b7d 0, #1c4ea1 100%);
+  padding: 10em 8em;
+}
+
+.about-us-success-section .text-center li {
+  font-weight: bold;
+  font-family: 'Catamaran', sans-serif;
+}
+
+.about-us-success-section .text-center p {
+  text-align: left;
+  font-weight: lighter;
+  
+  color: grey;
+}
+
+.about_us_col, .about_us_core_values {
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.hover-3d-shadow:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+
+.about-us-container #animatedText {
+  font-size: 46px;
+  font-weight: bold;
+  color: #fff;
+  text-transform: capitalize;
+  width: 35ch;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typing 5s steps(10) infinite;
+  animation-duration: 5s;
+  animation-timing-function: steps(10);
+   font-family: 'Catamaran', sans-serif;
+}
+
+@keyframes typing {
+  from { width: 0; }
+  to { width: 100%; }
+}
+
+.about-us-description {
+  font-size: 20px;
+  line-height: 1.5;
+  font-family: "Catamaran, sans-serif";
+
+}
+
+.about-us-icon {
+  font-size: 50px;
+  color: #007bff;
+}
+
+.about-us-client-logo {
+  margin: 1rem;
+  width: 100%;
+  height: auto;
+}
+
+.about-us-success-section.text-center {
+  text-align: center;
+}
+
+.about-us-business-relationships {
+  background-color: #0c2340; /* Dark blue background */
+  color: white; /* White text */
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.about-us-business-relationships h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.about-us-section .p-5{
+  padding: 6rem !important;
+}
+.about-us-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: #0c2340 !important;
+}
+
+.about-us-description-businessrelationships {
+  flex: 1 1 60%;
+  padding: 20px;
+  font-weight: lighter !important;
+  font-size: small;
+ 
+}
+
+.about-us-logos {
+  flex: 1 1 35%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-us-logos img {
+  width: 100%;
+  height: 200px;
+  margin: 0px 0;
+}
+
+.about-us-core-values {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+.about-us-description-businessrelationships .mt-5{
+  margin-top: 7em !important;
+}
+
+.about-us-core-values-list {
+  text-align: left;
+  padding-left: 20px;
+  
+}
+@media(max-width:991px){
+  .about-us-content .mt-5{
+    margin-top: -10px !important;
+
+  }
+}
+
+@media (min-width:990px) and (max-width:1112px){
+  .about-us-container #animatedText{
+    font-size: 2.5em;
+  }
+  .about-us-description{
+    font-size: 1.1em !important;
+
+  }
+
+}
+@media (min-width:759px) and (max-width:990px) {
+  .about-us-container #animatedText{
+    font-size: 1.8em;
+  }
+  .about-us-description{
+    font-size: 1em !important;
+
+  }
+
+}
+@media (min-width:550px) and (max-width:758px) {
+  .about-us-container #animatedText{
+    font-size: 1.5em;
+  }
+
+  .about-us-description{
+    font-size: 0.8em !important;
+
+  }
+  
+}
+@media (min-width:550px) and (max-width:650px) {
+  .about-us-container #animatedText{
+    font-size: 1.2em;
+  }
+  .about-us-description{
+    font-size: 0.6em !important;
+
+  }
+}
+@media (min-width:468px) and (max-width :549px){
+  .about-us-container #animatedText{
+    font-size: 0.9em;
+  }
+  .about-us-description{
+    font-size: 0.5em !important;
+
+
+  }
+  .about-us-section {
+padding: 7em 4em;
+
+}
+
+}
+@media (max-width :467px){
+  .about-us-container #animatedText{
+    font-size: 1em;
+  }
+  .about-us-section {
+    padding: 6em 2em;
+    
+    }
+  .about-us-description{
+    font-size: 0.7em !important;
+
+  }
+  .about_us_core_values{
+    position: relative;
+    top: 3em;
+  }
+
+}
